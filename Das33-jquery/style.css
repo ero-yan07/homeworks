@@ -19,7 +19,7 @@ body{
     height: auto;
     opacity: 0;
     transition: opacity .5s ease-in-out;
-    animation: spin 1.5s linear infinite;
+    animation: spin 2s linear infinite;
 }
 
 #earth-img{
@@ -35,6 +35,7 @@ body{
 }
 
 #yupiter-img{
+    top: 0;
     right: 0;
 }
 
@@ -42,3 +43,4 @@ body{
     from {transform: rotate(0deg); }
     to {transform: rotate(360deg); }
 }
+
